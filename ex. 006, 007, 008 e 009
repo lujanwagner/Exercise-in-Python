@@ -1,0 +1,40 @@
+#006- Crie um algoritimo que leia um numero e mostre o seu dobro, o triplo e raiz quadrada.
+n=int(input('Escreva um número qualquer'))
+print('O dobro de {} é {} o triplo é {} e sua raiz quadrada é {}'.format(n,(n*2),(n*3),(n**1/2)))
+
+#007 - Crie um algoritimo que calcule a media aritmetica entre 2 numeros
+n1 = float(input("Digite a primeira nota"))
+n2 = float(input('segunda nota'))
+ng = n1 + n2
+mg = ng/2
+print('Nota geral {:.1f}'.format(ng))
+print('média {:.1f}' .format(mg))
+# Maneira menor de se fazer a mesma operação
+nn1=float(input('Primeira nota'))
+nn2=float(input('segunda nota'))
+média=(nn1+nn2)/2
+print('Primeira nota {:.1f}, Segunda nota {:.1f}, Média geral {:.1f}'.format(nn1,nn2,média))
+
+#008 - Crie um leitor de medidas.
+Medida=float(input("Digite um medida"))
+Decametros=Medida*0.1
+Metros= Medida*1
+dm=Medida*10
+cm=Medida*100
+mm=Medida*1000
+print("Valor em Decâmetros {:.2f}, Valor em metros {:.1f}, Valor em Decímetros {:.1f}, Valor em Centímetros {:.0f}, "
+      "valor em Milímetros {:.0f}".format(Decametros,Metros,dm,Medida,cm,mm))
+ 
+#009 - Crie um programa que mostre a tabuada de um número
+#Digite o nome da variável (expl: 'num')
+num=int(input('Digite um número para ver sua tabuada'))
+print('{} x {} = {}'.format(num,1,num*1))
+print('{} x {} = {}'.format(num,2,num*2))
+print('{} x {} = {}'.format(num,3,num*3))
+print('{} x {} = {}'.format(num,4,num*4))
+print('{} x {} = {}'.format(num,5,num*5))
+print('{} x {} = {}'.format(num,6,num*6))
+print('{} x {} = {}'.format(num,7,num*7))
+print('{} x {} = {}'.format(num,8,num*8))
+print('{} x {} = {}'.format(num,9,num*9))
+print('{} x {} = {}'.format(num,10,num*10)) 
